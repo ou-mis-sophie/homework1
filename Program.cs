@@ -15,6 +15,10 @@ class Program
         while (running)
         {
             Console.Clear();
+
+            // Please write down your name first. 
+            Console.WriteLine("My name is xxx xxx. My OU 4x4 is xxx, and my GitHub account name is @xxxxxx. \n");
+
             Console.WriteLine("=== CALCULATOR SYSTEM ===");
             Console.WriteLine("1) Calculate Sale Total");
             Console.WriteLine("2) Calculate Student Grade");
