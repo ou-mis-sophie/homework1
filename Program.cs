@@ -133,7 +133,7 @@ class Program
 
         double finalgrade = hw_grade * hw_weight + parti_grade * parti_weight + quiz_grade * quiz_weight + midterm_grade * midterm_weight + finalexam_grade * finalexam_weight;
 
-        Console.WriteLine($"{firstname} {lastname} ({studentID}): your final grade is {finalgrade:F2}.");
+        Console.WriteLine($"{firstname} {lastname} ({studentID}): your grade is {finalgrade:F2}.");
 
 
 
