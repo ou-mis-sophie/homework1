@@ -90,28 +90,28 @@ class Program
 
         // ENTER YOUR CODE HERE
 
-        Console.WriteLine("What your first name name?");
+        Console.WriteLine("What is your first name?");
         string firstname = Console.ReadLine();
 
-        Console.WriteLine("What your last name name?");
+        Console.WriteLine("What is your last name?");
         string lastname = Console.ReadLine();
 
-        Console.WriteLine("What your student ID?");
+        Console.WriteLine("What is your student ID?");
         string studentID = Console.ReadLine();
 
-        Console.WriteLine("What your grade for homeworks?");
+        Console.WriteLine("What is your grade for homeworks?");
         double hw_grade = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("What your grade for participations?");
+        Console.WriteLine("What is your grade for participations?");
         double parti_grade = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("What your grade for quizzes?");
+        Console.WriteLine("What is your grade for quizzes?");
         double quiz_grade = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("What your grade for the midterm?");
+        Console.WriteLine("What is your grade for the midterm?");
         double midterm_grade = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("What your grade for the final exam?");
+        Console.WriteLine("What is your grade for the final exam?");
         double finalexam_grade = Convert.ToDouble(Console.ReadLine());
 
         // enter percentage weights
